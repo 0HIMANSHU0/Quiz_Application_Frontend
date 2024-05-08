@@ -1,0 +1,39 @@
+.layout {
+ padding: 10px;
+}
+
+.body {
+ width: 100%;
+}
+
+.sidebar {
+ background-color: var(--primary);
+ padding: 10px;
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.menu-item {
+ display: flex;
+ align-items: center;
+ padding: 8px 14px;
+ margin: 5px;
+ cursor: pointer;
+ transition: all 0.2s ease-in-out;
+ gap: 10px;
+ color: white;
+}
+
+.active-item-menu{
+ border: 2px solid white;
+ border-radius: 5px;
+}
+
+.header {
+ background-color: var(--primary);
+ color: white;
+ padding: 0px 15px;
+ border-radius: 5px;
+}

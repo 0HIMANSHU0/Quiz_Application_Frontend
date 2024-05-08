@@ -1,0 +1,82 @@
+input {
+ height: 15px !important;
+ padding: 10px 20px !important;
+ border: 2px solid #ccc !important;
+ border-radius: 5px !important;
+ width: 89% !important;
+}
+
+
+textarea {
+ width: 97%;
+ height: 100px; /* Adjust the height as needed */
+ padding: 10px 20px;
+ border: 2px solid #ccc !important;
+ border-radius: 5px !important;
+ box-sizing: border-box;
+ resize: vertical; /* Allow vertical resizing */
+}
+
+.primary-contained-btn {
+ height: 40px;
+ background-color: var(--primary);
+ color: white;
+ border-radius: 5px;
+}
+
+.primary-contained-btn:hover {
+ background-color: white;
+ color: var(--primary);
+
+ transition: all 0.2s ease-in-out;
+ cursor: pointer;
+}
+
+.ant-form-item {
+ margin-bottom: 5px;
+}
+
+.primary-outlined-btn {
+ background-color: white;
+ color: var(--primary);
+}
+
+.primary-outlined-btn:hover {
+ background-color: var(--primary);
+ color: white;
+ transition: all 0.3s ease-in-out;
+ cursor: pointer;
+}
+
+.ant-select-selector {
+ height: 40px !important;
+ padding: 10px 20px !important;
+ border: 2px solid #ccc !important;
+ border-radius: 5px !important;
+ width: 89% !important;
+ transition: all 0.2s ease-in-out;
+}
+
+button {
+ cursor: pointer;
+ border: 2px solid var(--primary);
+ border-radius: 5px;
+ height: 40px;
+ padding: 0px 10px;
+ font-size: 16px;
+}
+
+.savebtn {
+ padding: 0px 18px;
+ cursor: pointer;
+}
+
+.savebtn:hover {
+ background-color: white;
+ color: var(--primary);
+ transition: all 0.2s ease-in-out;
+}
+
+.addQuestion {
+ margin-top: -205px;
+}
